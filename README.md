@@ -8,7 +8,7 @@ While the challenege says an end to end test with a certain workflow, I decided 
 
 This was more challenging than I expected. Every website is different and what works for one doesn't mean it works for all. A big challenge I faced ended up being uploading a .pdf. It kept failing halfway through the upload. I thought it might be an encoding problem but nope, cypress just doesn't like my cover letter. I used a different .pdf and all is well. I wish I had tried that sooner.
 
-Before each test a login is made. This login is made through the UI. This is NOT optimal. It can take forever and text entry can be flakey. Logging in through a restful API request is the way to go. While sending the request is not a problem for me, finding what cookies or tokens to keep is a bit advanced for me (right now) without help. 
+Before each test a login is made. This login is made through the UI. This is NOT optimal. It can take forever and text entry can be flakey. Logging in through a restful API request is the way to go. While sending the request is not a problem for me, finding what cookies or tokens to keep is a bit advanced for me (but not for long!) without help. For the sake of time and the hope that you will not hold it against me, I pulled up short for now on this and used the lesser optimal solution.
 
 This suite has an order in which it needs to be ran. This is set in a config file if you decide you want to run them from the command line.
 
