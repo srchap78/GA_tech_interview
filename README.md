@@ -2,11 +2,11 @@
 
 Hello!<br>
 
-Be ready to be wowed by the power of automation! 
+Be ready to be wowed by the power of automation! I welcome any questions you might have.
 
 While the challenege says an end to end test with a certain workflow, I decided to write these how I would if I were to be making the actual test suite. This means small workflows (helps avoid flakiness) and certain features get their own test file. I also used page objects to help with managing the test suite if there are any changes to the DOM... Because now there is one place to change a selector instead of all throughout the tests.
 
-This was more challenging than I expected. Every website is different and what works for one doesn't mean it works for all. A big challenge I faced ended up being uploading a .pdf. It kept failing halfway through the upload. I thought it might be an encoding problem but nope, cypress just doesn't like my cover letter. I used a different .pdf and all is well. I wish I had tried that sooner.
+This was more challenging than I expected. Every website is different and what works for one doesn't mean it works for all. A challenge I faced ended up being uploading a .pdf. It kept failing halfway through the upload. I thought it might be an encoding problem but nope, cypress just doesn't like my cover letter. I used a different .pdf and all is well. I wish I had tried that sooner.
 
 Before each test a login is made. This login is made through the UI. This is NOT optimal. It can take forever and text entry can be flakey. Logging in through a restful API request is the way to go. While sending the request is not a problem for me, finding what cookies or tokens to keep is a bit advanced for me (but not for long!) without help. For the sake of time and the hope that you will not hold it against me, I pulled up short for now on this and used the lesser optimal solution.
 
