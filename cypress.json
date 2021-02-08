@@ -1,0 +1,11 @@
+{
+    
+    "projectId": "z29ynb",
+    "testFiles": [
+        "login.spec.js",
+        "document.spec.js",
+        "addRecipient.spec.js",
+        "verifyDoc.spec.js"
+    ]
+
+}
